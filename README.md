@@ -5,5 +5,5 @@ View Live projects <a href="https://loagsword.github.io/miniprojects-with-javasc
 
 1. <a href="https://loagsword.github.io/miniprojects-with-javascript/basic-calculator" target="_blank">basic-calculator</a>
 
-2. analog-clock
+2. <a href="https://loagsword.github.io/miniprojects-with-javascript/analog-clock" target="_blank">analog-clock</a>
 
