@@ -5,6 +5,11 @@
 
 body {
     background: linear-gradient(to right, hsl(200,100%, 50%), hsl(175, 100%, 50%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 .clock {
@@ -18,6 +23,7 @@ body {
 
 .clock .number {
     --rotation: 0; /* sets default to 0 deg*/
+    font-size: 1.5rem;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -83,5 +89,3 @@ body {
     height: 35%;
     background-color: black;
 }
-
-
