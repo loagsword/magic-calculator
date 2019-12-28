@@ -1,5 +1,6 @@
-# magic-calculator
+# miniprojects-with-javascript
 
-Based on tutorial by Web Dev Simplified: https://www.youtube.com/watch?v=j59qQ7YWLxw&t=613s
 
-View Live calculator at: https://loagsword.github.io/magic-calculator/
+View Live projects at: https://loagsword.github.io/miniprojects-with-javascript/
+
+1. [basic-calculator](/basic-calculator)
