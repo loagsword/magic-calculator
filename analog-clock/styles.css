@@ -15,15 +15,16 @@ body {
 .clock {
     width: 300px;
     height: 300px;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(216, 231, 241, 0.616);
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid white;
     position: relative;
 }
 
 .clock .number {
     --rotation: 0; /* sets default to 0 deg*/
     font-size: 1.5rem;
+    color: white;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -50,7 +51,7 @@ body {
     position: absolute;
     bottom: 50%;
     left: 50%;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.692);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     transform-origin: bottom;
@@ -62,7 +63,7 @@ body {
     /* adds a pseudo element we can style */
     content: ""; 
     position: absolute;
-    background-color: black;
+    background-color: white;
     z-index: 11;
     width: 15px;
     height: 15px;
@@ -73,7 +74,7 @@ body {
 }
 
 .clock .hand.second {
-    width: 3px;
+    width: 4px;
     height: 45%;
     background-color: red;
 }
@@ -86,6 +87,6 @@ body {
 
 .clock .hand.hour {
     width: 10px;
-    height: 35%;
+    height: 25%;
     background-color: black;
 }
