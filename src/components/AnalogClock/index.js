@@ -1,10 +1,13 @@
 import React from 'react';
 
+import App from './App'
+
 
 export default function Clock() {
     return (
         <section class="footer">
-            <p>Clock</p>
+            {/* <p>Test</p> */}
+            <App />
         </section>
     );
 }
