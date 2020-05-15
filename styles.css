@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(to right, rgb(35, 36, 36), hsl(176, 16%, 17%));
+    background: linear-gradient(to right, rgb(201, 66, 3), maroon);
     min-height: 100vh;
     align-items: center;
     justify-content: center;
