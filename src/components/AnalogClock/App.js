@@ -4,6 +4,7 @@ import React from 'react';
 import './styles.css'
 
 export default function App() {
+    // const script = require('./script')
     return(
         <div class="clock">
             <div class="hand hour" data-hour-hand></div>
@@ -21,6 +22,7 @@ export default function App() {
             <div class="number number10">10</div>
             <div class="number number11">11</div>
             <div class="number number12">12</div>
+            {/* <script defer src="clock.js"></script> */}
         </div>
     )
 }
