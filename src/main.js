@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Signup from './components/Signup';
 import Calculator from './components/Calculator'
 import AnalogClock from './components/AnalogClock'
+import TicTacToe from './components/TicTacToe'
 
 
 const Main = () => {
@@ -14,6 +15,7 @@ const Main = () => {
             <Route exact path='/signup' component={Signup}></Route>
             <Route exact path='/clock' component={AnalogClock}></Route>
             <Route exact path='/calculator' component={Calculator}></Route>
+            <Route exact path='/tic-tac-toe' component={TicTacToe}></Route>
 
         </Switch>
     );
