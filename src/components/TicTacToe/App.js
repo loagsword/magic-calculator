@@ -3,9 +3,11 @@ import Game from './components/Game'
 
 function App() {
     return(
-        <div className="App">
-            <Game />
-        </div>
+        <section class="tic-tac-toe-body">
+            <div className="App">
+                <Game />
+            </div>
+        </section>
     )
 }
 

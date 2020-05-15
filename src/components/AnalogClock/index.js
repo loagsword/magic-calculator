@@ -5,7 +5,7 @@ import App from './App'
 
 export default function Clock() {
     return (
-        <section class="footer">
+        <section>
             {/* <p>Test</p> */}
             <App />
         </section>

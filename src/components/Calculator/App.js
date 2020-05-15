@@ -5,6 +5,7 @@ import './styles.css'
 
 export default function App() {
     return (
+        <section class="calculator-body">
         <div class="calculator-grid">
             <div class="output">
                 <div data-previous-operand class="previous-operand"></div>
@@ -29,5 +30,6 @@ export default function App() {
             <button data-number>0</button>
             <button  data-equals class="span-two">=</button>
     </div>
+    </section>
     )
 }

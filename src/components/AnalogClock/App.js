@@ -6,6 +6,7 @@ import './styles.css'
 export default function App() {
     // const script = require('./script')
     return(
+        <section class="clock-body">
         <div class="clock">
             <div class="hand hour" data-hour-hand></div>
             <div class="hand minute" data-minute-hand></div>
@@ -24,5 +25,6 @@ export default function App() {
             <div class="number number12">12</div>
             {/* <script defer src="clock.js"></script> */}
         </div>
+        </section>
     )
 }

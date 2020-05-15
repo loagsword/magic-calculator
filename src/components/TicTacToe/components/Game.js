@@ -4,7 +4,13 @@ import Board from './Board'
 
 const styles = {
     width: '200px',
-    margin: '20px auto',
+    margin: '0px auto',
+};
+
+const buttonStyle = {
+    backgroundColor: 'maroon',
+    color: 'white',
+    padding: '15px',
 };
 
 const Game = () => {
@@ -36,7 +42,7 @@ const Game = () => {
             const destination = move ? `Go to move#${move}` : 'Go to start';
             return (
                 <li key={move}>
-                    <button onClick={() => jumpTo(move)}>{destination}</button>
+                    <button onClick={() => jumpTo(move)} style={buttonStyle}> {destination} </button>
                 </li>
             )
         })

@@ -1,0 +1,70 @@
+/* Styling for header */
+.header {
+    background-color: maroon;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.sub-header {
+    font-size: 10px;
+    margin-top: 10px;
+    text-decoration: underline;
+} 
+
+/* Styling for nav-bar containers */
+.nav-container {
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.nav-block {
+    /* background-color: red; */
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+/* Styling for Nav Buttons and links */
+
+.header button {
+    /* font-size: 15px; */
+    background-color: orange;
+    color: white;
+    padding: 15px;
+}
+
+.header a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    background-color: orange;
+    padding: 15px;
+
+}
+
+
+.header a:hover {
+    /* background-color: rgba(193, 58, 58, 0.77); */
+    animation: bounce;
+    animation-duration: 1s;
+}
+
+@keyframes bounce {
+    30% {
+        transform: translateY(10px);
+    }
+}
+
+

@@ -1,11 +1,7 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family: gotham Rounded, sans-serif;
-    font-weight: normal;
-}
 
-body {
-    padding: 0;
+/* Calculator Styling */
+.calculator-body {
+    padding: 2rem;
     margin: 0;
     background: linear-gradient(to right, #00AAFF, #00FF6c)
 }
