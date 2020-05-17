@@ -1,0 +1,27 @@
+.tic-tac-toe-body {
+    background: linear-gradient(to right, rgb(40, 140, 190), hsl(175, 80%, 43%));
+    padding: 2rem;
+    margin: 0;
+    list-style: none;
+    min-height: 70vh;
+    
+}
+
+
+.tic-tact-toe-button {
+    /* font-size: 15px; */
+    background-color: orange;
+    color: white;
+    padding: 15px;
+}
+
+a.tic-tact-toe-button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    background-color: orange;
+    padding: 15px;
+
+}
