@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import './script'
+import './script'
 import './styles.css'
 
 export default function App() {
