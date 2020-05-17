@@ -1,8 +1,8 @@
 {
-    "name": "app-name",
+    "name": "javascript-miniprojects",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://{username}.github.io/{repo-name}",
+    "homepage": "https://loagsword.github.io/javascript-miniprojects/",
     "dependencies": {
         "react": "^16.6.1",
         "react-dom": "^16.6.1",
