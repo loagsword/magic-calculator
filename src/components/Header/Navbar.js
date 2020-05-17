@@ -6,19 +6,19 @@ export default function Navbar() {
     <section class="nav-container">
         
         <div class="nav-block">
-            <Link to="/clock" class="button">
+            <Link to="/javascript-miniprojects/clock" class="button">
                 Analog Clock
             </Link>
         </div>
 
         <div class="nav-block">
-            <Link to="/tic-tac-toe" class="button">
+            <Link to="/javascript-miniprojects/tic-tac-toe" class="button">
                 Tic Tac Toe
             </Link>
         </div>
         
         <div class="nav-block">
-            <Link to="/calculator" class="button">
+            <Link to="/javascript-miniprojects/calculator" class="button">
                 Calculator
             </Link>
         </div>
