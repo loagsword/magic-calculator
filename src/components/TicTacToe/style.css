@@ -1,5 +1,5 @@
 .tic-tac-toe-body {
-    background: darkgrey;
+    background: linear-gradient(to right, rgb(40, 140, 190), hsl(175, 80%, 43%));
     padding: 2rem;
     margin: 0;
     list-style: none;
